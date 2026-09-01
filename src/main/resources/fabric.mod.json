@@ -16,8 +16,7 @@
   "depends": {
     "java": ">=${java}",
     "minecraft": "${version_range}",
-    "fabricloader": "*",
-    "fabric-api": "*"
+    "fabricloader": "*"
   },
   "contact": {
     "homepage": "https://github.com/${github_repo}",
