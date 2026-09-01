@@ -58,7 +58,7 @@ val uuid = iridium.fetchUUID(username) // Dev & vDev will always be null
 
 loom {
     splitEnvironmentSourceSets()
-    accessWidenerPath.set(File("src/main/resources/${iridium.modId}.classtweaker"))
+//    accessWidenerPath.set(File("src/main/resources/${iridium.modId}.classtweaker"))
 
     mods {
         register(iridium.modId) {
@@ -99,18 +99,6 @@ loom {
 //                "-javaagent:${System.getProperty("MIXIN_PATH")}"
             )
         }
-    }
-}
-
-fabricApi {
-    configureDataGeneration {
-        client = true
-        createRunConfiguration = true
-        createSourceSet = true
-        addToResources = true
-        modId = iridium.modId + "_vdatagen"
-
-        strictValidation = false
     }
 }
 
