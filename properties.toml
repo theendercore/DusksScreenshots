@@ -7,4 +7,4 @@ github_repo = "Teamvoided/DusksScreenshots"
 discord_invite = "https://discord.gg/KZ5Q364hEg"
 authors = [ "TheEnderCore" ]
 license = "MIT"
-version_range = ">=1.21.1 <1.21.2"
+version_range = "*"
